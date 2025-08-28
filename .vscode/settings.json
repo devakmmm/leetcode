@@ -1,0 +1,5 @@
+{
+    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "emmet.useInlineCompletions": true
+}
