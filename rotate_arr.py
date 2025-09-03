@@ -5,4 +5,4 @@ class Solution:
             return 0
 
         k=k%len(nums)
-        nums[:] = nums[-k:] + nums[:-k]
+        nums[:] = nums[-k:] + nums[:-k] 
