@@ -3,8 +3,8 @@ class Solution:
         groups=defaultdict(list)
 
         for s in strs:
-            key=''.join(sorted(s))
-            groups[key].append(s)
+            key=''.join(sorted(s)) #what this line does is adds each string after sorting it to the key example: "eat" becomes "aet"
+            groups[key].append(s) #this line appends the original string to the list of anagrams corresponding to the sorted key example: "eat" is appended to the list for key "aet"
         
         return list(groups.values())
     # the above program groups anagrams together from a list of strings
